@@ -27,7 +27,9 @@ const Register = () => {
   };
   return (
     <div className="register-form">
-      <h2 className="text-primary mt-5">Please Register</h2>
+      <h2 className="text-primary m-5 text-center">
+        Register to Care Dentist!
+      </h2>
       <form onSubmit={handleRegister}>
         <input type="text" name="name" id="" placeholder="Your name" required />
         <input
@@ -44,7 +46,11 @@ const Register = () => {
           id=""
           placeholder="Your Password"
         />
-        <input className="btn btn-primary" type="submit" value="Register" />
+        <input
+          className="btn btn-primary w-25 mx-auto d-block"
+          type="submit"
+          value="Register"
+        />
       </form>
       <p>
         Have an Account ?{" "}

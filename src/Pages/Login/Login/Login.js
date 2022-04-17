@@ -31,7 +31,7 @@ const Login = () => {
   };
   return (
     <div className="contianer w-50 mx-auto">
-      <h1 className="text-primary mt-5 text-cernter">Please Login</h1>
+      <h1 className="text-primary mt-5 text-center">Login to Care Dentist!</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -41,9 +41,6 @@ const Login = () => {
             placeholder="Enter email"
             required
           />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -55,11 +52,12 @@ const Login = () => {
             placeholder="Password"
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
+        <Button
+          className="w-25 d-block mx-auto m-2"
+          variant="primary"
+          type="submit"
+        >
+          Login
         </Button>
       </Form>
       <p>
