@@ -11,6 +11,7 @@ import Register from "./Pages/Login/Register/Register";
 import Services from "./Pages/Home/Services/Services";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import Checkout from "./Pages/Checkout/Checkout/Checkout";
+import Blogs from "./Pages/Blogs/Blogs";
 function App() {
   return (
     <div>
@@ -31,6 +32,7 @@ function App() {
           }
         ></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
