@@ -26,14 +26,6 @@ const Register = () => {
     createUserWithEmailAndPassword(email, password);
   };
 
-  if (error) {
-    return (
-      <div>
-        <p>Error: {error.message}</p>
-      </div>
-    );
-  }
-
   return (
     <div className="register-form">
       <h2 className="text-primary m-5 text-center">
