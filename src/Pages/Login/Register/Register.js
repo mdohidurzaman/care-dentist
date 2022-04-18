@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
 import "./Register.css";
 import SocialLogin from "../SocialLogin/SocialLogin";
+import { sendEmailVerification } from "firebase/auth";
 
 const Register = () => {
   const [createUserWithEmailAndPassword, user] =
@@ -25,6 +26,12 @@ const Register = () => {
     const password = event.target.password.value;
     createUserWithEmailAndPassword(email, password);
   };
+
+  // const varifyEmail = () => {
+  //   sendEmailVerification(auth.currentUser).then(() => {
+  //     console.log("Email varification");
+  //   });
+  // };
   return (
     <div className="register-form">
       <h2 className="text-primary m-5 text-center">
