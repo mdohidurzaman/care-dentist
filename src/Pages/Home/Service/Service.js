@@ -13,12 +13,17 @@ const Service = ({ service }) => {
       <img src={img} alt="" />
       <h2>{name}</h2>
       <p>
-        <strong>Price: {price}</strong>
+        <strong>Price: ${price}</strong>
       </p>
       <p>
         <small>{description}</small>
       </p>
-      <button onClick={() => navigateToServiceDetails(id)}>Book Now</button>
+      <button
+        className="btn btn-primary"
+        onClick={() => navigateToServiceDetails(id)}
+      >
+        Book Now
+      </button>
     </div>
   );
 };

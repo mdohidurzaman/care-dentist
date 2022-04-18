@@ -3,42 +3,42 @@
     "id": 1,
     "name": "Family & general dentistry",
     "price": "300",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "description": "At Audubon Dental Center, we’ve made it our mission to provide excellent and trustworthy dental care to all families.",
     "img": "https://i.ibb.co/nmcCFY9/img1.jpg"
   },
   {
     "id": 2,
     "name": "Implant dentistry",
-    "price": "100",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "price": "150",
+    "description": "A dental implant is a metal post that replaces the root portion of a missing tooth. An artificial tooth (crown) is placed.",
     "img": "https://i.ibb.co/ZzJR7rP/img2.jpg"
   },
   {
     "id": 3,
     "name": "Cosmetic dentistry",
-    "price": "150",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "price": "200",
+    "description": "Dental bridge help protect the roots of your teeth while providing a solid surface that allows normal chewing.",
     "img": "https://i.ibb.co/kKLhyc9/img3.jpg"
   },
   {
     "id": 4,
-    "name": "Children dentistry",
-    "price": "180",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "name": "Root Canal Treatment",
+    "price": "150",
+    "description": "When decay or disease reaches the pulp of a tooth, you’ll know it. The pain and discomfort that result is unmistakable.",
     "img": "https://i.ibb.co/HP5VYqB/img4.jpg"
   },
   {
     "id": 5,
     "name": "Emergency dental services",
-    "price": "100",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "price": "250",
+    "description": "We provide emergency dental services any problem about dental. You no need to serial issue for any treatment of dental.",
     "img": "https://i.ibb.co/GkYvyLZ/img5.jpg"
   },
   {
     "id": 6,
     "name": "Professional teeth whitening",
-    "price": "300",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+    "price": "120",
+    "description": "Everyone notices a bright, white, glowing smile. And everyone notices how confident you feel when you have that beautiful smile.",
     "img": "https://i.ibb.co/rZdnHJ3/img6.jpg"
   }
 ]

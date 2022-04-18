@@ -15,9 +15,14 @@ const Banner = () => {
       <Carousel.Item>
         <img className="d-block w-100" src={banner1} alt="First slide" />
         <Carousel.Caption className="slider-content">
-          <h3 className="slider-heading">First slide label</h3>
+          <h1 className="slider-heading">
+            Experience, Trust <br />
+            and Proven Success.
+          </h1>
           <p className="slider-text">
-            Nulla vitae elit libero, a pharetra augue mollis interdum.
+            We can help you whether your visit is to help maintain your teeth,{" "}
+            <br />
+            improve your smile or if you have an emergency.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -25,9 +30,13 @@ const Banner = () => {
         <img className="d-block w-100" src={banner2} alt="Second slide" />
 
         <Carousel.Caption className="slider-content">
-          <h3 className="slider-heading">Second slide label</h3>
+          <h1 className="slider-heading">
+            Get All The Essential <br />
+            Dental Care Today.
+          </h1>
           <p className="slider-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            We listen and work togather to create an experience. <br />
+            Understanding your requirement is important.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
