@@ -13,7 +13,7 @@ const Login = () => {
 
   let from = location.state?.from?.pathname || "/";
 
-  const [signInWithEmailAndPassword, user] =
+  const [signInWithEmailAndPassword, user, error] =
     useSignInWithEmailAndPassword(auth);
 
   if (user) {
@@ -26,6 +26,15 @@ const Login = () => {
     const password = passwordRef.current.value;
     signInWithEmailAndPassword(email, password);
   };
+  let errorMessage;
+  if (error) {
+    errorMessage = (
+      <div>
+        <p className="text-danger">Error: {error?.message}</p>
+      </div>
+    );
+  }
+
   const navigateToRegister = () => {
     navigate("/register");
   };
@@ -60,6 +69,7 @@ const Login = () => {
           Login
         </Button>
       </Form>
+      {errorMessage}
       <p>
         New to Car Services ?
         <span

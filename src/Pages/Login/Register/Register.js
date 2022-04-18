@@ -4,10 +4,9 @@ import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
 import "./Register.css";
 import SocialLogin from "../SocialLogin/SocialLogin";
-import { sendEmailVerification } from "firebase/auth";
 
 const Register = () => {
-  const [createUserWithEmailAndPassword, user] =
+  const [createUserWithEmailAndPassword, user, error] =
     useCreateUserWithEmailAndPassword(auth);
 
   const navigate = useNavigate();
@@ -27,11 +26,14 @@ const Register = () => {
     createUserWithEmailAndPassword(email, password);
   };
 
-  // const varifyEmail = () => {
-  //   sendEmailVerification(auth.currentUser).then(() => {
-  //     console.log("Email varification");
-  //   });
-  // };
+  if (error) {
+    return (
+      <div>
+        <p>Error: {error.message}</p>
+      </div>
+    );
+  }
+
   return (
     <div className="register-form">
       <h2 className="text-primary m-5 text-center">
